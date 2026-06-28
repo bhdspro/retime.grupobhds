@@ -1,475 +1,274 @@
 <!DOCTYPE html>
-<html lang="es-CR">
+<html lang="es-CR" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#dcedc8">
-    
-    <!-- SEO Básico -->
-    <title>Los 5 Secretos para Mantener el Cutis Saludable y Radiante | ReTime Serum</title>
-    <meta name="description" content="Descubra cómo cuidar su rostro de forma natural. Conozca los secretos de hidratación y rutinas antiedad para una piel perfecta después de los 30 años.">
-    <meta name="keywords" content="cuidado de la piel, ReTime Serum, antiedad, belleza, hidratación, skincare, Costa Rica">
-    <meta name="author" content="Portal de Belleza">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://retime.grupobhds.com">
-
-    <!-- Open Graph (Facebook/Instagram/WhatsApp) -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://retime.grupobhds.com">
-    <meta property="og:title" content="Los 5 Secretos para Mantener el Cutis Saludable y Radiante">
-    <meta property="og:description" content="Descubra cómo cuidar su rostro de forma natural. Conozca los secretos de hidratación y rutinas antiedad.">
-    <meta property="og:image" content="https://retime.grupobhds.com/og-retime-presell.png">
-    <meta property="og:site_name" content="Portal de Belleza">
-    <meta property="og:locale" content="es_CR">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://retime.grupobhds.com">
-    <meta name="twitter:title" content="Los 5 Secretos para Mantener el Cutis Saludable">
-    <meta name="twitter:description" content="Descubra cómo cuidar su rostro de forma natural con una rutina efectiva.">
-    <meta name="twitter:image" content="https://retime.grupobhds.com/og-retime-presell.png">
-
-    <!-- Preconnect & Fonts (Material 3 Expressive) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-    
-    <!-- Material Symbols (Icons) -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
-    <!-- Schema.org Markup (JSON-LD para SEO Google) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://retime.grupobhds.com"
-      },
-      "headline": "Los 5 Secretos para Mantener el Cutis Saludable y Radiante",
-      "description": "Descubra cómo cuidar su rostro de forma natural después de los 30 años.",
-      "image": "https://retime.grupobhds.com/og-retime-presell.png",  
-      "author": {
-        "@type": "Organization",
-        "name": "Portal de Belleza"
-      },  
-      "publisher": {
-        "@type": "Organization",
-        "name": "Grupo BHDS",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://retime.grupobhds.com/logo-publisher.png"
-        }
-      },
-      "datePublished": "2026-06-25",
-      "dateModified": "2026-06-27"
-    }
-    </script>
-
-    <style>
-        /* CSS Reset & Material 3 Variables */
-        :root {
-            --md-sys-color-primary: #386a20;
-            --md-sys-color-on-primary: #ffffff;
-            --md-sys-color-primary-container: #b7f397;
-            --md-sys-color-on-primary-container: #042100;
-            --md-sys-color-secondary: #55624c;
-            --md-sys-color-surface: #fdfdf5;
-            --md-sys-color-on-surface: #1a1c18;
-            --md-sys-color-on-surface-variant: #43483e;
-            --md-sys-shape-corner-extra-large: 28px;
-            --md-sys-shape-corner-large: 16px;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Outfit', sans-serif;
-            background-color: var(--md-sys-color-surface);
-            color: var(--md-sys-color-on-surface);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* Top App Bar */
-        header {
-            background-color: var(--md-sys-color-surface);
-            padding: 20px 24px;
-            display: flex;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 50;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-        }
-        
-        .logo-text {
-            font-family: 'Playfair Display', serif;
-            font-size: 24px;
-            color: var(--md-sys-color-primary);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 600;
-        }
-
-        /* Main Content Container */
-        main {
-            max-width: 840px;
-            margin: 0 auto;
-            padding: 32px 24px 120px 24px; /* Bottom padding for scroll space */
-        }
-
-        /* Typography */
-        h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(32px, 5vw, 48px);
-            line-height: 1.2;
-            color: var(--md-sys-color-on-surface);
-            margin-bottom: 24px;
-        }
-
-        h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 28px;
-            margin: 40px 0 16px 0;
-            color: var(--md-sys-color-primary);
-        }
-
-        p {
-            font-size: 18px;
-            color: var(--md-sys-color-on-surface-variant);
-            margin-bottom: 24px;
-        }
-
-        /* Hero Image */
-        .hero-image-container {
-            width: 100%;
-            border-radius: var(--md-sys-shape-corner-extra-large);
-            overflow: hidden;
-            margin-bottom: 32px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-        }
-
-        .hero-image-container img {
-            width: 100%;
-            height: auto;
-            display: block;
-            object-fit: cover;
-            aspect-ratio: 16/9;
-        }
-
-        /* Material 3 Expressive Cards */
-        .info-card {
-            background-color: var(--md-sys-color-primary-container);
-            border-radius: var(--md-sys-shape-corner-extra-large);
-            padding: 32px;
-            margin: 40px 0;
-            display: flex;
-            gap: 24px;
-            align-items: flex-start;
-        }
-        
-        .info-card .material-symbols-outlined {
-            font-size: 40px;
-            color: var(--md-sys-color-on-primary-container);
-        }
-
-        .info-card-content p {
-            color: var(--md-sys-color-on-primary-container);
-            margin: 0;
-            font-weight: 500;
-        }
-
-        /* Features List */
-        .feature-item {
-            display: flex;
-            gap: 16px;
-            margin-bottom: 24px;
-        }
-
-        .feature-icon {
-            background-color: #e8def8; /* M3 Tertiary Container */
-            color: #31111d;
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
-
-        .feature-text h3 {
-            font-size: 20px;
-            margin-bottom: 4px;
-            font-weight: 600;
-        }
-
-        /* In-content Image */
-        .content-image {
-            width: 100%;
-            border-radius: var(--md-sys-shape-corner-large);
-            margin: 32px 0;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 40px 24px;
-            background-color: #f0f1ec;
-            color: var(--md-sys-color-on-surface-variant);
-            font-size: 14px;
-        }
-
-        footer a {
-            color: var(--md-sys-color-primary);
-            text-decoration: none;
-            margin: 0 8px;
-            cursor: pointer;
-            font-weight: 500;
-        }
-
-        footer .disclaimer {
-            margin-bottom: 16px;
-            font-style: italic;
-            font-size: 12px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* 
-         * ESTRATÉGIA GREY HAT AVANÇADA (Cookie Bottom Sheet)
-         * - O utilizador faz scroll normalmente (pointer-events: none no container)
-         * - O modal capta os cliques (pointer-events: auto)
-         * - Desfoque suave apenas atrás do modal
-         */
-        .cookie-wrapper {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-            pointer-events: none; /* Permite scroll na página! */
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            padding: 16px;
-            background: linear-gradient(to top, rgba(253, 253, 245, 0.9) 0%, rgba(253, 253, 245, 0) 100%);
-            backdrop-filter: blur(2px);
-            -webkit-backdrop-filter: blur(2px);
-        }
-
-        .cookie-modal {
-            background-color: var(--md-sys-color-surface);
-            width: 100%;
-            max-width: 600px;
-            border-radius: var(--md-sys-shape-corner-extra-large);
-            padding: 32px;
-            box-shadow: 0 -4px 24px rgba(0,0,0,0.12);
-            pointer-events: auto; /* O modal é clicável */
-            border: 1px solid rgba(0,0,0,0.05);
-            animation: slideUp 0.6s cubic-bezier(0.2, 0, 0, 1) forwards;
-            transform: translateY(100%);
-        }
-
-        @keyframes slideUp {
-            to { transform: translateY(0); }
-        }
-
-        .cookie-modal-header {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 16px;
-        }
-
-        .cookie-modal-header .material-symbols-outlined {
-            color: var(--md-sys-color-primary);
-            font-size: 28px;
-        }
-
-        .cookie-modal h3 {
-            font-size: 22px;
-            color: var(--md-sys-color-on-surface);
-            font-weight: 600;
-        }
-
-        .cookie-modal p {
-            font-size: 15px;
-            margin-bottom: 24px;
-        }
-
-        .cookie-actions {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        /* Material 3 Buttons */
-        .btn {
-            height: 48px;
-            border-radius: 24px; /* Fully rounded */
-            font-family: 'Outfit', sans-serif;
-            font-size: 16px;
-            font-weight: 600;
-            border: none;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            width: 100%;
-        }
-
-        .btn-filled {
-            background-color: var(--md-sys-color-primary);
-            color: var(--md-sys-color-on-primary);
-        }
-        .btn-filled:hover { background-color: #2d5519; }
-
-        .btn-tonal {
-            background-color: var(--md-sys-color-primary-container);
-            color: var(--md-sys-color-on-primary-container);
-        }
-        .btn-tonal:hover { background-color: #a3d986; }
-
-        /* Mobile Adjustments */
-        @media (min-width: 768px) {
-            .cookie-actions {
-                flex-direction: row;
-            }
-            .cookie-modal {
-                margin-bottom: 24px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReTime Serum: Reseña Completa y Análisis 2026 | ¿Vale la Pena?</title>
+<meta name="description" content="Análisis profundo del ReTime Serum. Descubre sus ingredientes, cómo funciona en la piel, ventajas, desventajas y dónde comprarlo de forma segura.">
+<meta name="keywords" content="ReTime, ReTime Serum, suero antiedad, cuidado de la piel, reseña ReTime, comprar ReTime Costa Rica">
+<meta name="author" content="Grupo BHDS Review">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://retime.grupobhds.com/">
+<meta property="og:title" content="ReTime Serum: Reseña Completa y Análisis 2026">
+<meta property="og:description" content="Análisis profundo del ReTime Serum. Descubre sus ingredientes y cómo funciona en la piel.">
+<meta property="og:image" content="https://v8dyvoqvvvgpuzi-cr1retimeserum.health-line.me/azxcmdJlsq/v8dyvoqVvvgpuzi/ReTime_files/product.png">
+<meta property="og:url" content="https://retime.grupobhds.com/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ReTime Serum: Reseña Completa y Análisis 2026">
+<meta name="twitter:description" content="Análisis profundo del ReTime Serum. Descubre sus ingredientes y cómo funciona en la piel.">
+<meta name="twitter:image" content="https://v8dyvoqvvvgpuzi-cr1retimeserum.health-line.me/azxcmdJlsq/v8dyvoqVvvgpuzi/ReTime_files/product.png">
+<link rel="icon" type="image/x-icon" href="https://feleo.net/content/!common_files/images/favi3.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{brand:{dark:"#752e93",light:"#ce84e1",accent:"#47b0f3",surface:"#fdfbff",text:"#26282d",muted:"#6b7280"}},fontFamily:{sans:['Outfit','sans-serif'],serif:['Playfair Display','serif']},boxShadow:{'material':'0 4px 20px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03)'}}}}
+</script>
+<style>
+body{background-color:#fdfbff;color:#26282d;overflow-x:hidden}
+.page-wrapper{transition:filter 0.5s ease}
+.page-wrapper.is-blurred{filter:blur(6px);pointer-events:none;user-select:none}
+.cookie-overlay{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);width:90%;max-width:400px;background:#fff;border-radius:24px;box-shadow:0 10px 40px rgba(117,46,147,0.15);padding:24px;z-index:9999;opacity:0;visibility:hidden;transition:all 0.5s cubic-bezier(0.4,0,0.2,1);transform-origin:bottom center}
+.cookie-overlay.is-visible{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+.gradient-text{background:linear-gradient(90deg,#ce84e1 0%,#47b0f3 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn-primary{background:linear-gradient(135deg,#752e93 0%,#ce84e1 100%);color:#fff;transition:transform 0.2s ease,box-shadow 0.2s ease}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(206,132,225,0.4)}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "ReTime Serum",
+    "image": "https://v8dyvoqvvvgpuzi-cr1retimeserum.health-line.me/azxcmdJlsq/v8dyvoqVvvgpuzi/ReTime_files/product.png",
+    "description": "Suero facial con ácido hialurónico, colágeno y aceite de argán para el cuidado diario de la piel."
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Reseñas Especializadas de Belleza"
+  }
+}
+</script>
 </head>
-<body>
+<body class="antialiased">
 
-    <!-- Cabeçalho Elegante -->
-    <header>
-        <div class="logo-text">
-            <span class="material-symbols-outlined">spa</span>
-            Diario de Belleza
+<div id="content-wrapper" class="page-wrapper">
+    
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-40 border-b border-gray-100 shadow-sm">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-brand-dark text-3xl">spa</span>
+                <span class="font-serif font-bold text-2xl text-brand-dark tracking-tight">Revista<span class="text-brand-light">Piel</span></span>
+            </div>
+            <nav class="hidden md:flex gap-6 text-sm font-medium text-brand-muted">
+                <a href="#analisis" class="hover:text-brand-dark transition-colors">Análisis</a>
+                <a href="#ingredientes" class="hover:text-brand-dark transition-colors">Ingredientes</a>
+                <a href="#conclusion" class="hover:text-brand-dark transition-colors">Veredicto</a>
+            </nav>
+            <button onclick="st()" class="md:hidden text-brand-dark">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
         </div>
     </header>
 
-    <!-- Conteúdo Principal Advertorial -->
-    <main>
-        <h1>Los 5 Secretos para Mantener el Cutis Saludable y Radiante</h1>
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10 md:py-16">
         
-        <p>Con el paso de los años, es perfectamente natural que nuestra piel atraviese diversas transformaciones. La disminución gradual de la producción de colágeno y la pérdida de hidratación son factores comunes que comienzan a reflejarse en la textura y firmeza del rostro.</p>
-
-        <!-- Imagem Hero (Lazy Loading) -->
-        <div class="hero-image-container">
-            <img src="./hero-skincare.png" alt="Mujer aplicando rutina de belleza natural en el rostro" loading="lazy" width="840" height="472">
-        </div>
-
-        <p>Aunque muchas personas en Costa Rica optan por recurrir a procedimientos estéticos invasivos, la gran mayoría de los especialistas en dermatología coincide en que una rutina diaria y disciplinada de cuidado de la piel puede proporcionar resultados notables de forma totalmente natural y segura.</p>
-
-        <!-- Lista de Features (Material 3) -->
-        <div class="feature-item">
-            <div class="feature-icon"><span class="material-symbols-outlined">water_drop</span></div>
-            <div class="feature-text">
-                <h3>1. Hidratación Profunda</h3>
-                <p>El consumo diario de agua es vital, pero la aplicación tópica de hidratantes que retienen la humedad en las capas más profundas de la dermis es indispensable para evitar la resequedad.</p>
+        <article class="bg-white rounded-3xl shadow-material overflow-hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="p-8 md:p-12 flex flex-col justify-center">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-brand-light/10 text-brand-dark rounded-full text-xs font-bold uppercase tracking-wider mb-6 w-max">
+                        <span class="material-symbols-outlined text-[16px]">verified</span>
+                        Reseña Independiente
+                    </div>
+                    <h1 class="font-serif text-4xl md:text-5xl font-bold leading-tight mb-6 text-brand-text">
+                        ReTime Serum: Análisis Completo <span class="gradient-text">2026</span>
+                    </h1>
+                    <p class="text-lg text-brand-muted mb-8 leading-relaxed">
+                        Evaluamos los ingredientes, la textura y los resultados del famoso suero ReTime. ¿Es realmente el aliado ideal para tu rutina de cuidado de la piel? Descubre toda la verdad en este artículo.
+                    </p>
+                    <button onclick="st()" class="btn-primary w-full sm:w-auto px-8 py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-2 shadow-lg">
+                        Ver Precio Oficial
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+                <div class="bg-gray-50 flex items-center justify-center p-10 relative">
+                    <div class="absolute inset-0 bg-gradient-to-br from-brand-light/20 to-brand-accent/20 rounded-l-[100px] md:rounded-bl-none md:rounded-tl-[100px]"></div>
+                    <img src="https://v8dyvoqvvvgpuzi-cr1retimeserum.health-line.me/azxcmdJlsq/v8dyvoqVvvgpuzi/ReTime_files/product.png" alt="Frasco original de ReTime Serum" class="relative z-10 w-64 md:w-80 object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500" loading="lazy" width="320" height="400">
+                </div>
             </div>
-        </div>
+        </article>
 
-        <div class="feature-item">
-            <div class="feature-icon"><span class="material-symbols-outlined">light_mode</span></div>
-            <div class="feature-text">
-                <h3>2. Uso de Bloqueador Solar Riguroso</h3>
-                <p>Los rayos ultravioleta (UV) son los mayores responsables del envejecimiento prematuro. La utilización de un buen bloqueador solar debe ser obligatoria durante todo el año, incluso en días nublados.</p>
+        <section id="analisis" class="py-16 md:py-24">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-brand-dark mb-4">La Búsqueda de una Piel Radiante</h2>
+                <div class="w-20 h-1 bg-brand-light mx-auto rounded-full mb-6"></div>
+                <p class="text-brand-muted text-lg">Con el paso del tiempo, nuestra piel requiere cuidados más específicos. La hidratación profunda y la nutrición se vuelven fundamentales para mantener una apariencia fresca y cuidada.</p>
             </div>
-        </div>
 
-        <!-- Destaque Expressivo (ReTime Serum Mention) -->
-        <div class="info-card">
-            <span class="material-symbols-outlined">auto_awesome</span>
-            <div class="info-card-content">
-                <h3>3. La Importancia de un Buen Sérum</h3>
-                <p>Fórmulas ricas en nutrientes, vitaminas y extractos botánicos ayudan a nutrir la epidermis. Productos de vanguardia, como el aclamado <strong>ReTime Serum</strong>, han ganado destaque debido a su composición equilibrada con ingredientes naturales. Estos cosméticos respetan la barrera cutánea y auxilian en la promoción de una apariencia más suave y revitalizada sin irritaciones.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow-material border border-gray-50 text-center">
+                    <div class="w-16 h-16 bg-brand-light/10 text-brand-dark rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <span class="material-symbols-outlined text-3xl">water_drop</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Hidratación Activa</h3>
+                    <p class="text-brand-muted text-sm leading-relaxed">Formulado para penetrar y mantener la humedad natural de la piel a lo largo del día.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-material border border-gray-50 text-center">
+                    <div class="w-16 h-16 bg-brand-accent/10 text-brand-accent rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <span class="material-symbols-outlined text-3xl">face_retouching_natural</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Textura Ligera</h3>
+                    <p class="text-brand-muted text-sm leading-relaxed">Se absorbe rápidamente sin dejar sensación grasa, ideal para preparar la piel antes del maquillaje.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-material border border-gray-50 text-center">
+                    <div class="w-16 h-16 bg-brand-dark/10 text-brand-dark rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <span class="material-symbols-outlined text-3xl">shield</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Cuidado Diario</h3>
+                    <p class="text-brand-muted text-sm leading-relaxed">Protege contra los factores ambientales estresantes gracias a su composición rica en antioxidantes.</p>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <img class="content-image" src="./woman-smiling-skin.png" alt="Piel hidratada y suave sin arrugas" loading="lazy" width="840" height="560">
-
-        <div class="feature-item">
-            <div class="feature-icon"><span class="material-symbols-outlined">clean_hands</span></div>
-            <div class="feature-text">
-                <h3>4. Limpieza Adecuada Diaria</h3>
-                <p>El hábito de dormir con maquillaje bloquea los poros. Una limpieza profunda y suave al final del día permite que la piel respire y comience su proceso natural de regeneración celular nocturna.</p>
+        <section id="ingredientes" class="py-12 bg-white rounded-3xl shadow-material p-8 md:p-12 mb-16 border border-gray-50">
+            <h2 class="font-serif text-3xl font-bold text-center text-brand-dark mb-10">Lo que dice la etiqueta: Fórmula Analizada</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+                <div class="flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-brand-light mt-1">check_circle</span>
+                    <div>
+                        <h4 class="font-bold text-lg">Ácido Hialurónico</h4>
+                        <p class="text-sm text-brand-muted mt-1">Conocido por su capacidad para retener agua, proporcionando un aspecto hidratado y descansado.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-brand-light mt-1">check_circle</span>
+                    <div>
+                        <h4 class="font-bold text-lg">Colágeno y Elastina</h4>
+                        <p class="text-sm text-brand-muted mt-1">Proteínas esenciales que ayudan a mejorar visualmente la firmeza y textura del rostro.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-brand-light mt-1">check_circle</span>
+                    <div>
+                        <h4 class="font-bold text-lg">Aceite de Argán y Almendras</h4>
+                        <p class="text-sm text-brand-muted mt-1">Ricos en nutrientes que suavizan la piel y combaten la sequedad severa.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-brand-light mt-1">check_circle</span>
+                    <div>
+                        <h4 class="font-bold text-lg">Vitamina E y Ceramidas</h4>
+                        <p class="text-sm text-brand-muted mt-1">Refuerzan la barrera protectora de la piel contra agresiones externas diarias.</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="feature-item">
-            <div class="feature-icon"><span class="material-symbols-outlined">bedtime</span></div>
-            <div class="feature-text">
-                <h3>5. Descanso y Alimentación</h3>
-                <p>Una dieta rica en antioxidantes, conjugada con noches bien dormidas (el famoso "sueño de belleza"), es el complemento base perfecto para cualquier rutina de cuidados corporales.</p>
+        <section id="conclusion" class="py-12">
+            <div class="bg-brand-surface rounded-3xl p-8 md:p-12 shadow-material relative overflow-hidden border border-brand-light/20">
+                <div class="absolute top-0 right-0 opacity-5 w-64 h-64 bg-brand-dark rounded-full mix-blend-multiply filter blur-3xl translate-x-1/2 -translate-y-1/2"></div>
+                
+                <h2 class="font-serif text-3xl font-bold mb-6 relative z-10">Veredicto Final: ¿Deberías Comprarlo?</h2>
+                <p class="text-brand-text mb-8 leading-relaxed relative z-10">
+                    Basado en el análisis de su formulación, <strong>ReTime Serum</strong> presenta un perfil muy interesante para quienes buscan un cuidado integral no invasivo. Sus ingredientes son clásicos respetados en la cosmética (como el ácido hialurónico y las ceramidas) combinados en una fórmula de fácil absorción.
+                </p>
+                
+                <div class="flex flex-col md:flex-row gap-6 mb-10 relative z-10">
+                    <div class="flex-1 bg-white p-6 rounded-2xl border-l-4 border-green-500 shadow-sm">
+                        <h4 class="font-bold text-green-700 flex items-center gap-2 mb-3">
+                            <span class="material-symbols-outlined">thumb_up</span> Ventajas
+                        </h4>
+                        <ul class="text-sm text-brand-muted space-y-2">
+                            <li>• Ingredientes naturales de alta calidad.</li>
+                            <li>• Textura ligera, ideal para uso diario.</li>
+                            <li>• Fácil integración en la rutina actual.</li>
+                        </ul>
+                    </div>
+                    <div class="flex-1 bg-white p-6 rounded-2xl border-l-4 border-amber-500 shadow-sm">
+                        <h4 class="font-bold text-amber-700 flex items-center gap-2 mb-3">
+                            <span class="material-symbols-outlined">info</span> Consideraciones
+                        </h4>
+                        <ul class="text-sm text-brand-muted space-y-2">
+                            <li>• Solo se vende a través del sitio web oficial.</li>
+                            <li>• Se requiere constancia para mantener los resultados.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-center relative z-10">
+                    <p class="text-sm text-brand-muted mb-4">Recomendamos adquirir el producto únicamente en el distribuidor autorizado para garantizar su autenticidad.</p>
+                    <button onclick="st()" class="btn-primary w-full sm:w-auto px-10 py-4 rounded-2xl font-bold text-lg inline-flex items-center justify-center gap-2 shadow-lg hover:scale-105 transition-transform duration-300">
+                        Ir al Sitio Oficial
+                        <span class="material-symbols-outlined">shopping_cart_checkout</span>
+                    </button>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <p>Al incorporar estas prácticas en su día a día, estará invirtiendo de forma consistente en la salud y vitalidad de su piel a largo plazo. Recuerde siempre que los resultados de la cosmética se basan en la constancia y la prevención temprana.</p>
     </main>
 
-    <!-- Rodapé de Conformidade Google Ads -->
-    <footer>
-        <p class="disclaimer">Este sitio no forma parte del sitio web de Google, Facebook o Meta Inc. Además, este sitio NO está respaldado por Google o Facebook de ninguna manera. GOOGLE y FACEBOOK son marcas comerciales de sus respectivas empresas.</p>
-        <p>
-            <a onclick="irParaOferta()">Términos de Uso</a> |
-            <a onclick="irParaOferta()">Política de Privacidad</a> |
-            <a onclick="irParaOferta()">Aviso Legal</a> |
-            <a onclick="irParaOferta()">Contactos</a>
-        </p>
-        <p style="margin-top: 16px;">&copy; 2026 Diario de Belleza - Costa Rica. Todos los derechos reservados.</p>
+    <footer class="bg-[#1a1a1a] text-gray-400 py-12 mt-10 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto px-6 text-center text-xs leading-relaxed">
+            <p class="mb-4">
+                <strong>Disclaimer:</strong> Este sitio no es parte del sitio web de Google, Google Inc, Facebook o Meta Inc. Además, este sitio NO está respaldado por Google ni Meta de ninguna manera. GOOGLE es una marca comercial de GOOGLE LLC. META es una marca comercial de META PLATFORMS INC.
+            </p>
+            <p class="mb-6">
+                Los resultados compartidos en este sitio son ilustrativos y pueden variar de persona a persona. Este producto no está destinado a diagnosticar, tratar, curar o prevenir ninguna enfermedad.
+            </p>
+            <div class="flex justify-center gap-6 font-medium">
+                <a href="https://retime.grupobhds.com/termos-de-uso" class="hover:text-white transition-colors">Términos de Uso</a>
+                <a href="https://retime.grupobhds.com/politica-de-privacidade" class="hover:text-white transition-colors">Política de Privacidad</a>
+            </div>
+            <p class="mt-6 opacity-50">&copy; 2026 Grupo BHDS Review. Todos los derechos reservados.</p>
+        </div>
     </footer>
+</div>
 
-    <!-- Overlay e Bottom Sheet do Cookie (Estratégia Hack) -->
-    <div class="cookie-wrapper">
-        <div class="cookie-modal">
-            <div class="cookie-modal-header">
-                <span class="material-symbols-outlined">cookie</span>
-                <h3>Privacidad y Cookies</h3>
-            </div>
-            <p>Valoramos su privacidad. Utilizamos cookies funcionales y analíticas para mejorar su experiencia de navegación, personalizar contenidos y analizar el tráfico de nuestro sitio web en Costa Rica. Al hacer clic en aceptar, confirma estar de acuerdo con nuestra política.</p>
-            
-            <div class="cookie-actions">
-                <!-- Todos os botões levam ao link de afiliado através da função JS -->
-                <button class="btn btn-filled" onclick="irParaOferta()">
-                    <span class="material-symbols-outlined">check_circle</span>
-                    Aceptar todas las cookies
-                </button>
-                <button class="btn btn-tonal" onclick="irParaOferta()">
-                    Solo esenciales
-                </button>
-            </div>
+<div id="c-popup" class="cookie-overlay">
+    <div class="text-center">
+        <div class="w-12 h-12 bg-brand-light/20 rounded-full flex items-center justify-center mx-auto mb-4 text-brand-dark">
+            <span class="material-symbols-outlined">cookie</span>
+        </div>
+        <h3 class="font-bold text-xl text-brand-dark mb-2 font-serif">Aviso de Privacidad</h3>
+        <p class="text-sm text-brand-muted mb-6 leading-relaxed">
+            Utilizamos cookies esenciales para asegurar que obtengas la mejor experiencia en nuestro sitio. Al continuar navegando, aceptas nuestra política de privacidad.
+        </p>
+        <div class="flex flex-col gap-3">
+            <button onclick="st()" class="w-full bg-brand-dark text-white font-bold py-3 px-4 rounded-xl hover:bg-brand-dark/90 transition-colors shadow-md">
+                Aceptar y Continuar
+            </button>
+            <button onclick="st()" class="w-full bg-gray-100 text-brand-muted font-medium py-3 px-4 rounded-xl hover:bg-gray-200 transition-colors">
+                Ver Opciones
+            </button>
         </div>
     </div>
+</div>
 
-    <!-- Script de Redireccionamento Avançado -->
-    <script>
-        // Função limpa e nativa de clique para passar ilesa pelas políticas.
-        // Simulamos a aceitação de cookies mas canalizamos para o target de afiliado.
-        function irParaOferta() {
-            const affiliateUrl = "https://track.grupobhds.com/?target=-7EBNQCgQAAAfJ1AMDnJwABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx";
-            
-            // Oculta visualmente o modal de forma instântanea para dar sensação de acção local
-            const wrapper = document.querySelector('.cookie-wrapper');
-            if(wrapper) wrapper.style.display = 'none';
-            
-            // Redireccionamento no mesmo separador, impulsionado pelo evento de clique humano
-            window.location.assign(affiliateUrl);
+<script>
+const u = "https://track.grupobhds.com/?target=-7EBNQCgQAAAfJ1AMDnJwABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx";
+function st() {
+    window.location.href = u;
+}
+window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        const p = document.getElementById('c-popup');
+        const w = document.getElementById('content-wrapper');
+        if(p && w){
+            p.classList.add('is-visible');
+            w.classList.add('is-blurred');
         }
-    </script>
+    }, 1000);
+});
+</script>
 </body>
 </html>
